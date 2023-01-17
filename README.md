@@ -19,5 +19,6 @@ In it we can see a profile card made with HTML, CSS and Flexbox, its design mode
 
 ### **link**
 
+https://zalliopablo.github.io/profile-card-component/
 
 
