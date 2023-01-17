@@ -76,6 +76,9 @@ table {
 
 body {
   background-color: var(--Dark-cyan);
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-top.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 51vw bottom 20vh, left 45vw top 30vh;
 }
 
 .card__container {
