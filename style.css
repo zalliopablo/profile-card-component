@@ -1,0 +1,179 @@
+/* RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* VARIABLES */
+
+
+:root {
+  /*Colors Primary */
+
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+  /* Neutral */
+
+  --Dark--gray: hsl(0, 0%, 59%);
+
+  /* Font */
+
+  --font: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  background-color: var(--Dark-cyan);
+}
+
+.card__container {
+  width: 20rem;
+  margin: 8rem auto 2.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card__top {
+  background-image: url(images/bg-pattern-card.svg);
+  width: 100%;
+  height: 140px;
+}
+
+.card__img {
+  position: absolute;
+  top: 90px;
+  left: 33%;
+}
+
+.img__profile {
+  height: 96px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.data__container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+
+.card__name {
+  margin-top: 4.4rem;
+  font-family:  var(--font);
+  font-weight: 700;
+}
+
+span{
+  font-weight: 400;
+  color: var(--Dark--gray);
+  margin: 0 .4rem;
+}
+
+.card__city{
+  margin-top: .6rem;
+  font-family: var(--font);
+  font-weight: 400;
+  color: var(--Dark--gray);
+  font-size: .8rem;
+}
+
+.info__container{
+  width: 100%;
+  margin-top: 2.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--Dark--gray);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.statistics{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity{
+  font-family: var(--font);
+  font-weight: 700;
+}
+
+.units{
+  margin-top: .5rem;
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: .7rem;
+  letter-spacing: .1rem;
+}
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
